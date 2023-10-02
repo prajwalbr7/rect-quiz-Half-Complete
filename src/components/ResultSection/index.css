@@ -1,0 +1,52 @@
+.ResultHeading {
+  font: 'Nunito';
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+.CorrectContainer {
+  width: 100%;
+  height: 130px;
+  background-color: #bbefd4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.CorrectParaStyle {
+  font: 'Source Sans Pro';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+.CorrectParaSpanStyle {
+  font: 'Source Sans Pro';
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+  margin-left: 15px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #44b77b;
+}
+.color {
+  background-color: #ff3b3f;
+}
+.bgColor {
+  background-color: #ecc5c6;
+}

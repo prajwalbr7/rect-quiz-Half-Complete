@@ -1,0 +1,151 @@
+.QuestionPage1 {
+  width: 750px;
+  height: 100vh;
+  background-image: url('https://media.istockphoto.com/id/1398142930/vector/magic-night-dark-blue-frame-with-sparkling-glitter-bokeh-and-light-art.jpg?s=612x612&w=0&k=20&c=qnu4qBbJMlQbQkv3o_O6S-PVAThZuo0izR0olhUBGCg=');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.QuestionSubContainer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-border {
+  position: relative;
+  text-align: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  background-color: #44b77b;
+  background-image: linear-gradient(162deg, transparent 50%, #f0f0f0 50%),
+    linear-gradient(90deg, #f0f0f0 50%, transparent 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CircleContainer {
+  position: relative;
+  top: -120px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+.QuestionPage1Heading {
+  font: 'Nunito';
+  font-size: 96px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+.SpanQuestionPage1Heading {
+  font: 'Nunito';
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #999999;
+}
+.QuestionPage1TitleQuestion {
+  font: 'Nunito';
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  top: -120px;
+}
+.ulQuestionPage1 {
+  padding: 0px;
+  list-style-type: none;
+  position: relative;
+  top: -130px;
+  width: 100%;
+}
+.ListStylingQuestionPage1 {
+  height: 120px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #f3f4fa;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.inputCheckBoxStyle {
+  width: 48px;
+  height: 48px;
+  border: 4px;
+  opacity: 0.08px;
+  border-radius: 10px;
+}
+.labelTextStyle {
+  font: 'Nunito';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 20px;
+}
+.QuestionPage1ButtonStyle {
+  width: 100%;
+  height: 120px;
+  border-radius: 70px;
+  border-width: 0px;
+  background-color: #ff3b3f;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 20px;
+  z-index: 1;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.QuestionPage1ButtonPara {
+  font: 'Nunito';
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 55%;
+  height: 50px;
+  padding: 0px, 0.69px, 0px, 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.LinkStyle {
+  width: 100%;
+  text-decoration: none;
+}
